@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="YaG(:Zc*VGlbItrwE~+.">saugerRaum</variable><variable id="{a=5[.+hZ*A(XpI2_^|*">staubInRaum1</variable><variable id="1g/t^Nz/5#.wQ|Qacv9s">staubInRaum2</variable><variable id="8Nvu/an-~~SyG97e2[F6">displayStates</variable></variables><block type="pxt-on-start" id="^N}4vHcfSEe]{{X^J){p" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="+X@zH!u{!W!YX`kBPbv1"><field name="VAR" id="YaG(:Zc*VGlbItrwE~+.">saugerRaum</field><value name="VALUE"><shadow type="math_number" id="NlE*Z$L/qOydK0mGmc{v"><field name="NUM">1</field></shadow></value><next><block type="variables_set" id="0|yWhy(;y)NWfCm[?X7B"><field name="VAR" id="{a=5[.+hZ*A(XpI2_^|*">staubInRaum1</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="u05{v~`~4Jkx0d`g3Qn5"><field name="BOOL">FALSE</field></block></value><next><block type="variables_set" id="T~-t}0gGDrA#bS%bPUp}"><field name="VAR" id="1g/t^Nz/5#.wQ|Qacv9s">staubInRaum2</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="logic_boolean" id="*5]Y]:Nq@/8Rx:2G8I#E"><field name="BOOL">TRUE</field></block></value><next><block type="variables_set" id="r(vd@YI[NMio?/t[)BwD"><field name="VAR" id="8Nvu/an-~~SyG97e2[F6">displayStates</field><value name="VALUE"><shadow type="math_number" id="rW:?mN%0@}(wO0z?3wnG"><field name="NUM">0</field></shadow></value></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="X43KWJ{(8x.J?W*8[Go^" x="449" y="0"/><block type="function_definition" id="4c=;lrc`[W/hI9=kZnI3" x="654" y="0"><mutation name="raumStaubigMachen" functionid="=h!C$/s!+UsLCOf(7`dg"/><field name="function_name">raumStaubigMachen</field></block><block type="function_definition" id="=6j)hZYLby2r)a2eVkN@" x="0" y="269"><mutation name="saugerNachRechts" functionid="sx]*QD1krOm+8O6#7?`I"/><field name="function_name">saugerNachRechts</field></block><block type="function_definition" id="kc6LL4AfQwaUeCyrV}g[" x="309" y="269"><mutation name="raumSaugen" functionid="xV^wbQ%-QcHcF[t:yei,"/><field name="function_name">raumSaugen</field></block><block type="function_definition" id="6)N{r|vOzB`GrDji.e2w" x="570" y="269"><mutation name="saugerNachLinks" functionid="bQXg#/`u=$Rlhg`oUX?5"/><field name="function_name">saugerNachLinks</field></block><block type="function_definition" id="oUj2zZab2@|G-3/@QZyC" x="18" y="480"><mutation name="staubsaugerWeltVisualisieren" functionid="LreP8Xc~D]a0Xt!?.YRd"><arg name="pSaugerRaum" id="aatp%_R3Yx|x91p}HB}I" type="number"/><arg name="staubInRaum1" id="dc%u;m!buF=K_*,mAwy0" type="boolean"/><arg name="staubInRaum2" id="{zw,$-}}I}`}]]F`UAJ:" type="boolean"/></mutation><field name="function_name">staubsaugerWeltVisualisieren</field></block><block type="lists_create_with" id="kwao+P2Q$y/-Wu.~CTnW" inline="false" disabled="true" x="96" y="685"><mutation items="8" horizontalafter="3"/><value name="ADD0"><block type="device_build_image" id="wH)#iA2tSY+t$GOX6$]2" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="2.pLkSVUo:a@Nmq(v[D+" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id=")NLjqV**61)]+4Fk6)`a" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="g|}9Kc(DS;fbQ+]Y$yS~" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="JOFM)vi*o4~J#)C@#)3~" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="*J4Q[VJrXse/dC7B;CPd" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value><value name="ADD6"><block type="device_build_image" id="UBt.BB$LvN=Qui.r1W|A" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value><value name="ADD7"><block type="device_build_image" id="=/70JrOVkq|VSo^dt%Z$" disabled="true"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></value></block></xml>

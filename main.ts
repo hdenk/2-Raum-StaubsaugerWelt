@@ -73,14 +73,14 @@ function createDisplayStates () {
         # # # . .
         . . # . .
         . . # . .
-        . . # . .
+        # # # # #
         `),
     images.createImage(`
         . . # # #
         . . # # #
         . . # . .
         . . # . .
-        . . # . .
+        # # # # #
         `)
     ]
 }

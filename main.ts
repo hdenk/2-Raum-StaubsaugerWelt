@@ -112,10 +112,11 @@ saugerRaum = 1
 staubInRaum1 = false
 staubInRaum2 = true
 displayStates = createDisplayStates()
+let loopCounter = 0
 basic.forever(function () {
-    if (randint(0, 1000) == 13) {
+    loopCounter = loopCounter + 1
+    if (randint(1, 16) == 13) {
         raumStaubigMachen()
     }
     staubsaugerWeltVisualisieren(saugerRaum, staubInRaum1, staubInRaum2)
-    basic.pause(10)
 })
